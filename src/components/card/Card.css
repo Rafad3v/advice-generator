@@ -1,0 +1,16 @@
+p {
+  font-size: 2rem;
+}
+
+.card-container {
+  background-color: #313a49;
+  border-radius: 10px;
+}
+.next-button {
+  background-color: #53ffab;
+  border: none;
+  display: flex;
+  padding: 0.7rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
