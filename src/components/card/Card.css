@@ -5,12 +5,53 @@ p {
 .card-container {
   background-color: #313a49;
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 25px;
+  max-width: 500px;
 }
+
+.advice-number {
+  width: 100%;
+  text-align: center;
+  color: #53ffab;
+  letter-spacing: 4px;
+  margin-top: 2.5rem;
+  font-weight: 550;
+  font-size: 0.8rem;
+}
+
+.advice-text {
+  color: #cee3e8;
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 1.7rem 0;
+  font-weight: 550;
+}
+
+.italic-text {
+  font-style: italic;
+}
+
 .next-button {
   background-color: #53ffab;
   border: none;
   display: flex;
-  padding: 0.7rem;
+  padding: 1rem;
   border-radius: 50%;
   cursor: pointer;
+  position: relative;
+  bottom: -23px;
+  margin-top: 1rem;
+}
+
+
+
+@media (min-width: 768px) {
+  .next-button:hover {
+  box-shadow: 0px 0px 30px 5px rgb(83, 255, 171, 0.5);
+  transition: 0.4s;
+}
 }

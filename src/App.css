@@ -23,3 +23,19 @@ body {
 .App {
   padding: 0 1rem;
 }
+
+.desktop_divider {
+  display: none;
+}
+
+
+@media (min-width: 600px) {
+  .mobile_divider {
+    display: none;
+  }
+
+  .desktop_divider {
+    display: block;
+  }
+}
+
